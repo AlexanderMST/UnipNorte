@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JavaScript</title>
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+    <h1>JavaScript</h1>
+    
+    <p>Aprendendo JS!</p>    
+    <hr>
+
+    <button onclick="teste();">clique aqui</button>
+    
+    <p id="paragrafo"></p>
+    
+    <p ondblclick="nao_clique()">Por favor, NÃO CLIQUE Aqui!!!!</p>
+    
+    <p id="par2"></p>
+
+    <p id="magico" onmousedown="apertar()" onmouseup="soltar()">Veja como esse paragrafo e mágico!, ao clicar o mouse, ele assume uma cor. Quando você desaperta o mouse, ele muda de cor!</p>
+    
+    <p id="estilos">Observe este paragrafo, vamos alterar o seu estilo usando o javascript</p>
+
+    <button onclick="altera_estilos()">alterar estilos</button>
+    <hr>
+    <form action="">
+        <label for="">Número 1:</label><input type="text" id="numero1" name="numero1" placeholder="Digite o 1* numero">
+        
+        <br><br>
+        <label for="">Número 2:</label><input type="text" id="numero2" name="numero2" placeholder="Digite o 2* numero">
+        
+        <br><br>
+        <label for="">Resultado:</label><input type="text" id="resultado" name="resultado" placeholder="Aqui aparecera o Resultado">
+        
+        <br><br>
+        <button onclick="somar()">Calcular</button>
+    </form>
+    
+    </html>
+
+
+

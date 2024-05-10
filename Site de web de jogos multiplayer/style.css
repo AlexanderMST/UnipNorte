@@ -1,0 +1,65 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+    @import url(edosz.ttf); 
+body
+    {
+     background-color:mediumseagreen;
+     background-image: url(https://th.bing.com/th/id/OIP.K79SB7xkIr6KiMI9yuhgtQHaEo?w=278&h=181&c=7&r=0&o=5&pid=1.7);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: right; 
+
+     text-align: justify;
+     text-indent: 35px;
+     
+     font-weight: 600;
+     font-size: 1em;
+
+     font-family: "Edo SZ";
+    }
+
+p{color:white;}
+h2{color:#0462AF;}
+
+#primeiro-paragrafo-bo3{color: chocolate;}
+
+.Elden{color:rgb(245, 217, 79);}
+
+.Risk2{color:purple}
+#segundo{color: darkorchid;}
+
+.BO3{color: orangered;}
+
+#BlackOps {border-radius: 20px;}
+
+button{margin: 100px; padding-left: 30px;}
+
+video{ width: 300px; }
+
+
+#caixa-mae{background-color: blue; width: 900px; height: 400px; display: flex; flex-direction: row; justify-content: space-between;} 
+
+#filho1{background-color: yellow; width: 200px; height: 30%;}
+#filho2{background-color: red; width: 200px; height: 30%;}
+#filho3{background-color: green; width: 200px; height: 30%;}
+
+#menu{
+    display: flex;
+    flex-direction: row;        
+    justify-content: space-between;
+    background-color: white
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    font-size: 1.25em;
+}
+#link{
+    align-items: center;
+    margin-top: 1%;
+    margin-right: 3%;
+}  
